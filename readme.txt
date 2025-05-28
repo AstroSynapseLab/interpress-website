@@ -18,4 +18,4 @@ Why intepress:
 - Scalability: Translate thousands of documents across multiple departments, instantly.
 - Accuracy with context: Preserve the original intent and layout — not just the words.
 - Universal applications: Perfect for HR, manufacturing manuals, customer service scripts, safety training, hospitality standards, compliance policies, technical guides, and more.
-- Enterprise control: Available as a secure cloud service or a dedicated, privately hosted solution to meet your data sovereignty needs."							
+- Enterprise control: Available as a secure cloud service or a dedicated, privately hosted solution to meet your data sovereignty needs."
