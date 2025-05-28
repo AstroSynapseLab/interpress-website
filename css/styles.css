@@ -2860,6 +2860,14 @@ img.u-pull-left {
  * responsive:
  * project-wide and shared styles
  * ------------------------------------------------------------------- */
+
+/* Pricing section mobile stacking */
+@media screen and (max-width: 768px) {
+    .stack-mobile .item-plan {
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+}
 @media screen and (max-width: 1000px) {
     .section-header .desc {
         padding : 0;
