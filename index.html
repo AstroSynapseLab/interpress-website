@@ -71,7 +71,7 @@
                 </nav>
 
                 <div class="s-header__cta">
-                    <a class="btn btn--stroke s-header__cta-btn" href="https://forms.gle/QiATJmk8wKemyKbx6">Get Early Access</a>
+                    <a href="https://forms.gle/QiATJmk8wKemyKbx6" class="btn btn--stroke s-header__cta-btn smoothscroll">Get Early Access</a>
                 </div>
 
             </div> <!-- end s-header__inner -->
@@ -89,17 +89,21 @@
             <section id="intro" class="s-intro target-section">
 
                 <div class="s-intro__bg">
-                    <video class="video-bg active" autoplay muted loop playsinline>
+                    <video class="video-bg active" autoplay muted loop playsinline webkit-playsinline>
                         <source src="videos/hero-bg-4.mp4" type="video/mp4">
+                        <source src="videos/hero-bg-4.webm" type="video/webm">
                     </video>
-                    <video class="video-bg" autoplay muted loop playsinline>
+                    <video class="video-bg" autoplay muted loop playsinline webkit-playsinline>
                         <source src="videos/hero-bg-3.mp4" type="video/mp4">
+                        <source src="videos/hero-bg-3.webm" type="video/webm">
                     </video>
-                    <video class="video-bg" autoplay muted loop playsinline>
+                    <video class="video-bg" autoplay muted loop playsinline webkit-playsinline>
                         <source src="videos/hero-bg-2.mp4" type="video/mp4">
+                        <source src="videos/hero-bg-2.webm" type="video/webm">
                     </video>
-                    <video class="video-bg" autoplay muted loop playsinline>
+                    <video class="video-bg" autoplay muted loop playsinline webkit-playsinline>
                         <source src="videos/hero-bg-1.mp4" type="video/mp4">
+                        <source src="videos/hero-bg-1.webm" type="video/webm">
                     </video>
                 </div>
 
@@ -112,12 +116,12 @@
                                 Access is Not.
                             </h1>
                             <p class="s-intro__content-desc body-text-2">
-                                You need an AI-powered platform that instantly translates, </br>
+                                You need an AI-powered platform that instantly translates, <br>
                                 understands, and navigates internal documents across languages without losing structure, context, or time.
                             </p> 
 
                             <div class="s-intro__content-buttons">
-                                <a class="btn btn--primary s-intro__content-btn" href="https://forms.gle/QiATJmk8wKemyKbx6">Get Early Access</a>
+                                <a href="https://forms.gle/QiATJmk8wKemyKbx6" class="btn btn--primary s-intro__content-btn smoothscroll">Get Early Access</a>
                             </div>
                         </div>
                     </div> <!-- s-intro__content-inner -->
@@ -496,47 +500,68 @@
             <section id="pricing" class="s-pricing target-section" style="background-color: var(--color-gray-6);">
                 <div class="row s-pricing__content">
 
-                    <div class="column lg-4 md-12 s-pricing__header">
+                    <div class="column lg-12 s-pricing__header">
                         <h3 class="h2">Our Plans</h3>
                         <p>
                             Designed to grow with you, from startups to global enterprises.
                         </p>
                     </div> <!-- end s-pricing__header -->
 
-                    <div class="column lg-8 md-12 s-pricing__plans">
-                        <div class="row plans block-lg-one-half block-tab-whole">
+                    <div class="column lg-12 s-pricing__plans">
+                        <div class="row plans block-lg-one-third block-tab-one-half stack-mobile">
+
+                            <div class="column item-plan">
+                                <div class="item-plan__block"> 
+
+                                    <div class="item-plan__top-part">
+                                        <h3 class="item-plan__title">Pay as you go</h3>
+                                        <p class="item-plan__price"><sup>€</sup>500</p>
+                                        <p class="item-plan__per">+ €0.80 per page</p>
+                                    </div>
+
+                                    <div class="item-plan__bottom-part">
+                                        <ul class="item-plan__features">
+                                            <li><span>One time</span> setup</li>
+                                            <li><span>Support</span> </li>
+                                        </ul>
+
+                                        <a class="btn btn--primary u-fullwidth" href="https://forms.gle/QiATJmk8wKemyKbx6">Contact us</a>
+                                    </div>  
+
+                                </div>
+                            </div> <!-- end item-plan -->
 
                             <div class="column item-plan item-plan--popular">
                                 <div class="item-plan__block"> 
 
                                     <div class="item-plan__top-part">
                                         <h3 class="item-plan__title">SME Plan</h3>
-                                        <p class="item-plan__price"><sup>$</sup>25k</p>
+                                        <p class="item-plan__price"><sup>€</sup>25k</p>
                                         <p class="item-plan__per">One time</p>
                                     </div>
-                
+
                                     <div class="item-plan__bottom-part">
                                         <ul class="item-plan__features">
                                             <li><span>One time</span> setup</li>
                                             <li><span>Support</span> </li>
                                             <li><span>Product</span> upgrades</li>
-                                            
                                         </ul>
-                
+
                                         <a class="btn btn--primary u-fullwidth" href="https://forms.gle/QiATJmk8wKemyKbx6">Contact us</a>
                                     </div>
-                                
+
                                 </div>
                             </div> <!-- end item-plan -->
+
                             <div class="column item-plan">
                                 <div class="item-plan__block"> 
 
                                     <div class="item-plan__top-part">
                                         <h3 class="item-plan__title">Enterprise Plan</h3>
-                                        <p class="item-plan__price"><sup>$</sup>12.5k</p>
-                                        <p class="item-plan__per">Month</p>
+                                        <p class="item-plan__price"><sup>€</sup>15k</p><br>
+                                        <p class="item-plan__per">Monthly</p>
                                     </div>
-                
+
                                     <div class="item-plan__bottom-part">
                                         <ul class="item-plan__features">
                                             <li><span>One time</span> setup</li>
@@ -544,10 +569,10 @@
                                             <li><span>Product</span> upgrades</li>
                                             <li>Custom features</li>
                                         </ul>
-                
+
                                         <a class="btn btn--primary u-fullwidth" href="https://forms.gle/QiATJmk8wKemyKbx6">Contact us</a>
                                     </div>  
-                                
+
                                 </div>
                             </div> <!-- end item-plan -->
                         </div>
