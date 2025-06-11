@@ -105,3 +105,94 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
+
+/* Product Section Styles */
+.product-content {
+  padding: 5em 3em 8em 3em;
+  background: url('../images/backgrounds/product-bg.svg') no-repeat top center;
+  background-size: cover;
+  border: 1px solid #F1F1F1;
+  border-radius: 32px;
+}
+
+.product h3 span {
+  width: auto;
+  align-items: center;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #E4E7EC;
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
+
+.product h2 {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+
+.product .lead {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+
+.product .features {
+  padding: 2em 2em 0 2em;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px 0.5px #E4E5E9, 0px 0px 0px 1px rgba(228, 229, 233, 0.6), 0px 0px 0px 3.5px #F9F9FB, 0px 0px 0px 4px #F3F4F7;
+  border-radius: 20px;
+}
+
+.product .features .feature-card {
+  padding: 2rem 1.5rem;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.product .features .feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.product .features .feature-card h5 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  color: #24292F;
+}
+
+.product .features .feature-card p {
+  font-size: 1rem;
+  line-height: 150%;
+  color: #24292F;
+}
+
+.product .testimonial-content p {
+  font-size: 1.75rem;
+  line-height: 150%;
+  letter-spacing: -0.4px;
+  font-style: normal;
+  color: #555E67;
+}
+
+.product .testimonial-content cite {
+  font-size: 1rem;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-style: normal;
+  color: #31373D;
+}
+
+.product .testimonial-content cite small {
+  color: #555E67;
+}
