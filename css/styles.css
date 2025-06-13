@@ -431,3 +431,72 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 140%;
   color: #000000;
 }
+
+/* FAQ Section Styles */
+.faq {
+  padding: 2em 0 6em 0;
+  background-image: url(../images/backgrounds/hero-bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.faq-inside {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+}
+
+.faq p {
+  font-size: 1.25rem;
+  line-height: 140%;
+}
+
+.faq-content h3 {
+  font-size: 2rem;
+  line-height: 140%;
+  color: #000000;
+}
+
+.faq-accordion .accordion-button {
+  background-color: transparent;
+  font-size: 1.375rem;
+  color: #000;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/icon-minus.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.faq-accordion .accordion-button.collapsed::after {
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/icon-plus.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: none;
+}
+
+.faq-accordion .accordion-button::after {
+  margin-left: auto;
+  background-image: none;
+}
+
+.faq-accordion .accordion-body {
+  width: 80%;
+  font-size: 1rem;
+  color: #24292F;
+}
