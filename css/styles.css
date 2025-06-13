@@ -177,7 +177,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #24292F;
 }
 
-.product .testimonial-content p {
+.product .testimonial-content p,
+.features .testimonial-content p {
   font-size: 1.75rem;
   line-height: 150%;
   letter-spacing: -0.4px;
@@ -185,7 +186,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #555E67;
 }
 
-.product .testimonial-content cite {
+.product .testimonial-content cite,
+.features .testimonial-content cite {
   font-size: 1rem;
   line-height: 140%;
   letter-spacing: -0.2px;
@@ -193,6 +195,180 @@ h1, h2, h3, h4, h5, h6 {
   color: #31373D;
 }
 
-.product .testimonial-content cite small {
+.product .testimonial-content cite small,
+.features .testimonial-content cite small {
   color: #555E67;
+}
+
+/* Features Section Styles */
+.features-content-intro {
+  padding-bottom: 6em;
+  background: url('../images/backgrounds/features-intro-bg.svg') no-repeat right bottom;
+  background-size: contain;
+}
+
+.features-content-intro h2 {
+  width: 35%;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+}
+
+.features-content-intro p {
+  width: 35%;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 140%;
+  color: #000000;
+}
+
+.features-content-cards {
+  padding-bottom: 6em;
+}
+
+.features-content-cards .feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 0px 4px rgba(45, 47, 54, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.features-content-cards .feature-card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin: 1.5em 0 1.5em 0;
+}
+
+.features-content-cards .feature-card h3 {
+  margin: 0 1em 0.25em 1em;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.9375rem;
+  color: #262626;
+}
+
+.features-content-cards .feature-card p {
+  padding: 0 1.5em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.2px;
+  color: #24292F;
+}
+
+/* Can Do Section Styles */
+.can-do {
+  padding: 5em 3em 8em 3em;
+  background-image: url(../images/backgrounds/hero-bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.can-do-intro {
+  padding: 2em 7em 4em 7em;
+}
+
+.can-do-intro-image img {
+  width: 100%;
+  display: block;
+  margin: 0 0 5em 0;
+}
+
+.can-do-intro h2 {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+}
+
+.can-do-intro p {
+  margin-left: 7em;
+  margin-right: 7em;
+  font-family: 'Inter Tight';
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 140%;
+  color: #000000;
+}
+
+.can-do-cards {
+  padding: 0.625em;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #E4E7EC;
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+}
+
+.can-do-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5em 2.5em 1.5em 2.5em;
+  gap: 1rem;
+  background: #FFFFFF;
+  border: 1px solid #E4E7EC;
+  border-radius: 24px;
+  height: 100%;
+}
+
+.can-do-card h3 {
+  font-family: 'Inter Tight';
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 150%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.can-do-card.enterprise h3 span {
+  padding: 4px 12px;
+  background: #F4F3FF;
+  border: 1px solid #D9D6FE;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 20px;
+  text-align: center;
+  color: #5925DC;
+}
+
+.can-do-card p {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: -0.2px;
+  color: #24292F;
+}
+
+.can-do-card img {
+  width: 100%;
+  display: block;
+  margin: 0 0 1.5em 0;
+}
+
+.card-more-info {
+  padding: 1.5em;
+  background: #FDFDFD;
+  border: 1px solid #F1F1F1;
+  border-radius: 24px;
+}
+
+.card-more-info p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 140%;
+  color: #000000;
 }
