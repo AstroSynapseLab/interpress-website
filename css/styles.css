@@ -401,3 +401,33 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%;
   color: #000000;
 }
+
+/* Scale Section Styles */
+.scale {
+  padding: 2em 0 6em 0;
+  background-image: url(../images/backgrounds/hero-bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.scale img {
+  margin: 0 0 5em 0;
+}
+
+.scale-info {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.scale-info h2 {
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+}
+
+.scale-info p {
+  margin-bottom: 4em;
+  font-size: 1.25rem;
+  line-height: 140%;
+  color: #000000;
+}
