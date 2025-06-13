@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter Tight', sans-serif;
 }
 
+.font-inter-tight {
+  font-family: 'Inter Tight', sans-serif;
+}
+
 /* Header Navigation Styles */
 .navbar {
   padding: 2rem 0;
@@ -26,10 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-  font-family: 'Inter Tight', sans-serif;
   font-size: 1rem;
-  color: #000000;
-  font-weight: 500;
   transition: color 0.2s ease;
 }
 
@@ -45,8 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
   font-family: 'Inter Tight', sans-serif;
   font-size: 1rem;
-  color: #FFFFFF;
-  font-weight: 500;
   transition: color 0.2s ease;
 }
 
@@ -66,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content-top h1 {
   margin-left: 2em;
   margin-right: 2em;
-  font-weight: 600;
   font-size: 6rem;
   line-height: 120%;
   letter-spacing: -0.03em;
@@ -80,11 +78,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content-top p {
   margin-left: 13em;
   margin-right: 13em;
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 1.5rem;
   line-height: 140%;
-  color: #000000;
 }
 
 
@@ -130,12 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 .industries h2 {
   margin-left: 1em;
   margin-right: 1em;
-  font-family: 'Inter Tight';
-  font-style: normal;
-  font-weight: 600;
   font-size: 4rem;
   line-height: 120%;
-  text-align: center;
   letter-spacing: -0.025em;
 }
 
@@ -143,12 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 .industries .lead {
   margin-left: 10em;
   margin-right: 10em;
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 1.25rem;
   line-height: 140%;
-  text-align: center;
-  color: #000000;
 }
 
 .product .features {
@@ -160,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .product .features .feature-card {
   padding: 2rem 1.5rem;
-  background: white;
   transition: all 0.3s ease;
 }
 
@@ -212,8 +198,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-content-intro h2 {
   width: 35%;
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
   font-size: 4rem;
   line-height: 120%;
   letter-spacing: -0.025em;
@@ -221,11 +205,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-content-intro p {
   width: 35%;
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 1.25rem;
   line-height: 140%;
-  color: #000000;
 }
 
 .features-content-cards {
@@ -251,8 +232,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-content-cards .feature-card h3 {
   margin: 0 1em 0.25em 1em;
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
   font-size: 1.375rem;
   line-height: 1.9375rem;
   color: #262626;
@@ -260,8 +239,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-content-cards .feature-card p {
   padding: 0 1.5em;
-  font-style: normal;
-  font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: -0.2px;
@@ -287,8 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .can-do-intro h2 {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
   font-size: 4rem;
   line-height: 120%;
   letter-spacing: -0.025em;
@@ -297,11 +272,8 @@ h1, h2, h3, h4, h5, h6 {
 .can-do-intro p {
   margin-left: 7em;
   margin-right: 7em;
-  font-family: 'Inter Tight';
-  font-weight: 500;
   font-size: 1.25rem;
   line-height: 140%;
-  color: #000000;
 }
 
 .can-do-cards {
@@ -325,11 +297,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .can-do-card h3 {
-  font-family: 'Inter Tight';
-  font-weight: 600;
   font-size: 2rem;
   line-height: 150%;
-  color: #000000;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -340,7 +309,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #F4F3FF;
   border: 1px solid #D9D6FE;
   border-radius: 20px;
-  font-weight: 500;
   font-size: 0.875rem;
   line-height: 20px;
   text-align: center;
@@ -348,8 +316,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .can-do-card p {
-  font-family: 'Inter';
-  font-weight: 500;
   font-size: 1rem;
   line-height: 150%;
   letter-spacing: -0.2px;
@@ -375,7 +341,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-more-info p {
-  font-weight: 500;
   font-size: 1.25rem;
   line-height: 140%;
   color: #000000;
@@ -499,4 +464,119 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   font-size: 1rem;
   color: #24292F;
+}
+
+/* Price Section Styles */
+.price-content {
+  padding: 5em 3em 8em 3em;
+  background: url('../images/backgrounds/price-bg.svg') no-repeat top center;
+  background-size: contain;
+  background-color: #FAFAFA;
+  border-radius: 32px;
+}
+
+.price-header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.price-header h2 {
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+}
+
+.price-header p {
+  font-size: 1.25rem;
+  line-height: 140%;
+}
+
+.price-cards {
+  padding: 0.625em;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #E4E7EC;
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+}
+
+.price-cards .card {
+  border-radius: 32px;
+}
+
+.price-cards .card h5 {
+  font-size: 1.5rem;
+}
+
+.price-cards .card h2 {
+  font-size: 2.5rem;
+}
+
+.price-cards .card p {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.price-cards .card li {
+  font-size: 1rem;
+}
+
+.icon-black {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icons/icon-yes-black.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-grey {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icons/icon-yes-grey.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Footer Section Styles */
+.footer-content {
+  background-image: url('../images/backgrounds/footer-bg.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #262626;
+}
+
+.footer-content h3 {
+  font-size: 3.5rem;
+  line-height: 100%;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+
+.footer-content p {
+  font-size: 1.25rem;
+}
+
+.footer-content .first-column p {
+  font-size: 1.125rem;
+}
+
+.footer-content h6 {
+  font-size: 1.5rem;
+}
+
+.footer-content .second-column a {
+  font-size: 1.125rem;
+  color: #999999;
+}
+
+.footer-content .second-column a:hover {
+  color: #FFFFFF;
+}
+
+.footer-content .third-column p {
+  font-size: 1.125rem;
+  color: #999999;
 }
