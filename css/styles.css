@@ -82,25 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 140%;
 }
 
-
-/* Mobile responsive adjustments */
-@media (max-width: 991.98px) {
-  .navbar-nav {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .nav-link {
-    padding: 0.5rem 0 !important;
-    margin: 0.25rem 0;
-  }
-
-  .btn-dark {
-    margin-top: 0.5rem;
-    width: 100%;
-  }
-}
-
 /* Product Section Styles */
 .product-content {
   padding: 5em 3em 8em 3em;
@@ -311,7 +292,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   font-size: 0.875rem;
   line-height: 20px;
-  text-align: center;
   color: #5925DC;
 }
 
@@ -579,4 +559,129 @@ h1, h2, h3, h4, h5, h6 {
 .footer-content .third-column p {
   font-size: 1.125rem;
   color: #999999;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 1366px) {
+  .hero-content-top h1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero-content-top p {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .product h2, .industries h2,
+  .product .lead, .industries .lead {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features-content-intro h2 {
+    width: 50%;
+  }
+
+  .can-do-intro {
+    padding: 2em 1em 4em 1em;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .hero img {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0 !important;
+    margin: 0.25rem 0;
+  }
+
+  .btn-dark {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .product .testimonial-content p, .features .testimonial-content p {
+    font-size: 1rem;
+  }
+
+  .features-content-intro h2,
+  .features-content-intro p {
+    width: 100%;
+  }
+
+  .can-do-intro p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .hero-content-top h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content-top p,
+  .product .lead, .industries .lead,
+  .features-content-intro p,
+  .can-do-intro p,
+  .faq p,
+  .price-header p {
+    font-size: 1rem;
+  }
+
+  .product h2, .industries h2,
+  .features-content-intro h2,
+  .can-do-intro h2,
+  .scale-info h2,
+  .faq h2,
+  .price-header h2,
+  .footer-content h3 {
+    font-size: 2rem;
+  }
+
+  .can-do-card h3,
+  .industries-card h3,
+  .faq-content h3 {
+    font-size: 1.125rem;
+  }
+
+  .scale-info,
+  .faq-inside,
+  .price-header {
+    width: 100%;
+  }
+
+  .faq-accordion .accordion-body {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .faq-accordion .accordion-button {
+    font-size: 1rem;
+  }
+
+  .can-do,
+  .price-content {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
 }
